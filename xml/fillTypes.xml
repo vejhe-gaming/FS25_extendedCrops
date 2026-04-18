@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+    <fillTypes>
+        <fillType name="RYE" title="$l10n_fillType_rye" showOnPriceTable="true" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.714285" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.225000">
+                <factors>
+                    <factor period="1" value="1.00" /> <factor period="2" value="1.07" /> <factor period="3" value="0.99" />
+                    <factor period="4" value="0.94" /> <factor period="5" value="0.85" /> <factor period="6" value="0.81" />
+                    <factor period="7" value="0.86" /> <factor period="8" value="0.99" /> <factor period="9" value="1.08" />
+                    <factor period="10" value="1.13" /> <factor period="11" value="1.21" /> <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+			<image hud="$moddir$FS25_extendedCrops/textures/hud/fillTypes/hud_fill_rye.dds" />        </fillType>
+
+        <fillType name="TRITICALE" title="$l10n_fillType_triticale" showOnPriceTable="true" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.714285" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.228571">
+                <factors>
+                    <factor period="1" value="1.00" /> <factor period="2" value="1.07" /> <factor period="3" value="0.99" />
+                    <factor period="4" value="0.94" /> <factor period="5" value="0.85" /> <factor period="6" value="0.81" />
+                    <factor period="7" value="0.86" /> <factor period="8" value="0.99" /> <factor period="9" value="1.08" />
+                    <factor period="10" value="1.13" /> <factor period="11" value="1.21" /> <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image hud="$moddir$FS25_extendedCrops/textures/hud/fillTypes/hud_fill_triticale.dds" />
+        </fillType>
+
+        <fillType name="SPELT" title="$l10n_fillType_spelt" showOnPriceTable="true" isBulkType="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.337">
+                <factors>
+                    <factor period="1" value="1.00" /> <factor period="2" value="1.07" /> <factor period="3" value="0.99" />
+                    <factor period="4" value="0.94" /> <factor period="5" value="0.85" /> <factor period="6" value="0.81" />
+                    <factor period="7" value="0.86" /> <factor period="8" value="0.99" /> <factor period="9" value="1.08" />
+                    <factor period="10" value="1.13" /> <factor period="11" value="1.21" /> <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image hud="$moddir$FS25_extendedCrops/textures/hud/fillTypes/hud_fill_spelt.dds" />
+        </fillType>
+    </fillTypes>
+
+    <fillTypeCategories>
+        <fillTypeCategory name="BULK">RYE TRITICALE SPELT</fillTypeCategory>
+        <fillTypeCategory name="COMBINE">RYE TRITICALE SPELT</fillTypeCategory>
+        <fillTypeCategory name="AUGERWAGON">RYE TRITICALE SPELT</fillTypeCategory>
+        <fillTypeCategory name="FARMSILO">RYE TRITICALE SPELT</fillTypeCategory>
+    </fillTypeCategories>
+</map>

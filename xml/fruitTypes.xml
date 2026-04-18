@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fruitTypes.xsd">
+    <fruitTypes>
+    <fruitType filename="$moddir$FS25_extendedCrops/Foliage/rye/rye.xml"/>
+    <fruitType filename="$moddir$FS25_extendedCrops/Foliage/triticale/triticale.xml"/>
+    <fruitType filename="$moddir$FS25_extendedCrops/Foliage/spelt/spelt.xml"/>
+</fruitTypes>
+
+    <fruitTypeCategories>
+        <fruitTypeCategory name="GRAINHEADER">RYE TRITICALE SPELT</fruitTypeCategory>
+        <fruitTypeCategory name="SOWINGMACHINE">RYE TRITICALE SPELT</fruitTypeCategory>
+        <fruitTypeCategory name="DIRECTCUTTER">RYE TRITICALE SPELT</fruitTypeCategory>
+        <fruitTypeCategory name="MOWER">RYE TRITICALE SPELT</fruitTypeCategory>
+        <fruitTypeCategory name="COMBINE_MOWER">RYE TRITICALE SPELT</fruitTypeCategory>
+    </fruitTypeCategories>
+
+    <fruitTypeConverters>
+	
+        <fruitTypeConverter name="FORAGEHARVESTER">
+            <converter from="RYE" to="CHAFF" factor="4.18"/>
+            <converter from="TRITICALE" to="CHAFF" factor="4.07"/>
+            <converter from="SPELT" to="CHAFF" factor="3.86"/>
+        </fruitTypeConverter>
+        <fruitTypeConverter name="MOWER">
+            <converter from="RYE" to="STRAW" factor="1.0"/>
+            <converter from="TRITICALE" to="STRAW" factor="1.0"/>
+            <converter from="SPELT" to="STRAW" factor="1.0"/>
+        </fruitTypeConverter>
+		<fruitTypeConverter name="COMBINE_MOWER">
+			<converter from="RYE"       to="RYE"       factor="1.0"/>
+			<converter from="TRITICALE" to="TRITICALE" factor="1.0"/>
+			<converter from="SPELT"     to="SPELT"     factor="1.0"/>
+        </fruitTypeConverter>			
+</fruitTypeConverters>
+</map>
