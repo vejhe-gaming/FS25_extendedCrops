@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="90">
+    <author>Vejhe</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>FS25 Extended Crops</en>
+    </title>
+
+    <description>
+        <en>Global script mod that adds Rye, Triticale, Spelt to all maps.</en>
+        <da>Globalt script-mod der tilføjer Rug, Triticale, Spelt til alle maps.</da>
+    </description>
+
+    <iconFilename>icon.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/ExtendedCrops.lua" />
+    </extraSourceFiles>
+
+    <l10n>
+        <text name="fillType_rye">
+            <en>Rye</en>
+            <da>Rug</da>
+        </text>
+        <text name="fillType_triticale">
+            <en>Triticale</en>
+            <da>Triticale</da>
+        </text>
+        <text name="fillType_spelt">
+            <en>Spelt</en>
+            <da>Spelt</da>
+        </text>
+    </l10n>
+</modDesc>
